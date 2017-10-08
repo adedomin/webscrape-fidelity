@@ -1,0 +1,19 @@
+{
+  "name": "webscrape-fidelity",
+  "version": "1.0.0",
+  "description": "scrape 401k.com",
+  "main": "index.js",
+  "bin": {
+    "fidelity-scrape": "bin/fidelity-scrape.js"
+  },
+  "dependencies": {
+    "puppeteer": "^0.10.2",
+    "yargs": "^8.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anthony DeDominic <adedomin@gmail.com>",
+  "license": "ISC"
+}
